@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.banner img{ width: 100%;}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.heading{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.heading h1{
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Imbue', serif;
+}
+.banner button{
+    width: 280px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 120px;
+    background-color:transparent;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.banner button:hover{
+    background-color: white;
+    color: red;
+    
+}
+.dishes h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    
+}
+.row{
+    display: flex;
+    margin-top: 50px;
+}
+.col{
+    width: 25%;
+justify-content: space-between;
+margin: 20px;
+}
+.col img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.col h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+.col h4{
+    color: red;
+    margin-top: 5px;
+}
+.col p{
+    text-align: justify;
+    width: 250px;
+}
+.col button{
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.col button:hover{
+    color: white;
+    background-color: red;
+}
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 320%;
+    left: 30%;
+}
+.inner h1{
+    color:white;
+    font-size: 40px;
+    text-shadow: 4px 5px 7px black;
+}
+#row{
+    display: flex;
+    margin-left: 40px;
+}
+#col{
+    width: 50%;
+    margin-top: 20px;
+}
+#col1{
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+}
+#btn{
+    margin-top: 15px;
+    background-color: red;
+    color:white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#btn:hover{
+    width: 180px;
+    height: 45px;
+}
+footer{
+    background-color: rgb(49, 48, 48);
+    height: 250px;
+    width: 100%;
+}
+#footerdiv{
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+}
